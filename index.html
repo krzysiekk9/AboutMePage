@@ -1,0 +1,218 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>About Me Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <span class="material-symbols-outlined"> home </span>
+        <ul class="nav__links">
+          <li class="nav__link" href="#section--1">Skills</li>
+          <li class="nav__link" href="#section--2">Intrests</li>
+          <li class="nav__link" href="#section--3">Contact</li>
+        </ul>
+      </nav>
+      <div class="header__about">
+        <div class="header__title">
+          <h1>About Me</h1>
+        </div>
+        <div class="header__txt basic__txt">
+          My name is Krzysztof Wiench. I'm 22 years old. I recently finished my
+          studies at Politechnika Wrocławska in the field of automatic control
+          and robotics and became an engineer. Currently i'm studying technical
+          computer science also at Politachnika Wrocławska, so i'm on my way to
+          get master degree. I'm interesed in web development, especially in
+          front-end. I know basic tools and languages, but still remains a lot
+          to learn and i'm lookig forward to it. Some of my skills are written
+          below, if You are interested to get to know me a little bit better
+          click down below.
+        </div>
+        <button class="btn--txt btn--scroll">Get to know me &DownArrow;</button>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <h1 class="section__title">My skills</h1>
+      <!-- HTML -->
+      <div class="skill__wrapper skill__html">
+        <div class="skill__title">HTML5</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            I have basic knowlege of HTML5. This page is an example of what i
+            know about HTML. I obtained most of my knowlege about HTML during my
+            practise last summer, my tasks were mailny focused on HTML5, CSS and
+            SASS.
+          </p>
+          <img
+            src="img/HTML5.svg"
+            alt="htmlLogo"
+            class="skill__img img__blur"
+          />
+        </div>
+      </div>
+      <!-- CSS -->
+      <div class="skill__wrapper skill__css">
+        <div class="skill__title">CSS3</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            I have basic knowlege of CSS3. Still learning, now I'm looking
+            forward to get better at implementing animations and transitions.
+            Usually i don't use CSS because I prefer making websites using SASS.
+          </p>
+          <img src="img/CSS3.svg" alt="cssLogo" class="skill__img img__blur" />
+        </div>
+      </div>
+      <!-- JavaScipt -->
+      <div class="skill__wrapper skill__css">
+        <div class="skill__title">JavaScript</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            Basic knowlege of Javascript. This page has a little bit of code
+            wrote using JS. I really liked JacaScript since i started learnig
+            it, and I'm really excided to get better at it. It is very
+            complicated sometimes, so I have a lot of work ahead of me.
+          </p>
+          <img
+            src="img/Javascript.svg"
+            alt="jsLogo"
+            class="skill__img img__blur"
+          />
+        </div>
+      </div>
+      <!-- Sass -->
+      <div class="skill__wrapper skill__css">
+        <div class="skill__title">Sass</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            Basic knowlege at SASS. As I wrote in CSS section, I prefer writing
+            code much more in SASS than CSS. It is simpler for me and faster to
+            write code using SASS.
+          </p>
+          <img src="img/Sass.svg" alt="sassLogo" class="skill__img img__blur" />
+        </div>
+      </div>
+      <!-- React -->
+      <div class="skill__wrapper skill__css">
+        <div class="skill__title">React</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            Very basics of React. Lately i begun to learn React. At first it was
+            weird for me, because i was used to programming languages like
+            JavaScipt. Syntax of React is diffrent but over time I started to
+            understand it and even liked it. I'm really looking forward to get
+            better in React.
+          </p>
+          <img
+            src="img/React_logo.svg"
+            alt="reactLogo"
+            class="skill__img img__blur"
+          />
+        </div>
+      </div>
+      <!-- Git -->
+      <div class="skill__wrapper skill__css">
+        <div class="skill__title">Git</div>
+        <div class="skill__txt__img">
+          <p class="basic__txt">
+            I have basic knowlege about version control. If i needed to I was
+            using Github.
+          </p>
+          <img
+            src="img/Git_icon.svg"
+            alt="gitLogo"
+            class="skill__img img__blur"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Intrests -->
+    <section class="section" id="section--2">
+      <h1 class="section__title">My Intrests</h1>
+
+      <div class="favs__tabs-container">
+        <button
+          class="btn__favs favs__tab btn__favs__tab1 favs__tab--active"
+          data-tab="1"
+        >
+          Sightseeing
+        </button>
+        <button class="btn__favs favs__tab btn__favs__tab2" data-tab="2">
+          Sport
+        </button>
+        <button class="btn__favs favs__tab btn__favs__tab3" data-tab="3">
+          New Technologies
+        </button>
+        <button class="btn__favs favs__tab btn__favs__tab4" data-tab="4">
+          Movies & TV series
+        </button>
+      </div>
+      <div class="favs__content favs__content--1 favs__content--active">
+        <h5 class="favs__content__title">I love visiting new places</h5>
+        <div class="favs__content__inside">
+          <img class="favs__img" src="/img/travelers.svg" alt="travelIMG" />
+          <p>
+            Visiting new places is always exciting for me. I love seeing other
+            culures and new landscapes. Mainly I travaled near Poland. Besides
+            Poland, the county I liked the most that I have visited is Slovenia.
+          </p>
+        </div>
+      </div>
+      <div class="favs__content favs__content--2">
+        <h5 class="favs__content__title">Gym, basketball & much, much more</h5>
+        <div class="favs__content__inside">
+          <img class="favs__img" src="/img/basketball.svg" alt="travelIMG" />
+          <p>
+            I like all sorts of sports, volleyball, basketball, football. I
+            enjoy playing with my friends the most, but also I like exercising
+            on my own, for example at the gym or go for a swim.
+          </p>
+        </div>
+      </div>
+      <div class="favs__content favs__content--3">
+        <h5 class="favs__content__title">New technologies</h5>
+        <div class="favs__content__inside">
+          <img class="favs__img" src="/img/new_tech.svg" alt="travelIMG" />
+          <p>
+            I was always interested in new technologies, it was always exciting
+            for me. From new vehicles to new smartphones. I also like to play
+            computer games, so I'm interesed at technologies related to this
+            topic.
+          </p>
+        </div>
+      </div>
+      <div class="favs__content favs__content--4">
+        <h5 class="favs__content__title">
+          Some of my favorite movies & TV series
+        </h5>
+        <div class="favs__content__inside">
+          <img class="favs__img" src="/img/moveis.svg" alt="travelIMG" />
+          <p>
+            When I have free time, I like to watch good film. Mainly I like
+            comedies, but I enjoy watching all sorts of movies. My favorite
+            movie is "Star Wars" and favorite TV show is "The Office".
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="section section__footer" id="section--3">
+      <h1 class="section__title">Contact</h1>
+      <div class="footer__wrapper">
+        <p>
+          <span class="footer__color__txt">Email:</span> k.wiench@protonmail.com
+        </p>
+        <p><span class="footer__color__txt">Phone number: </span>733 595 644</p>
+        <p>Thank you for visiting my webpage😄</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

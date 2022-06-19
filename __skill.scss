@@ -1,0 +1,26 @@
+.skill__wrapper {
+  padding-bottom: 2rem;
+  .skill__title {
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: #2e2e2e;
+    opacity: 0.9;
+  }
+  .skill__txt__img {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: [first] 45% [second] 10%;
+    align-items: center;
+    p {
+      font-family: 'Montserrat', sans-serif;
+      grid-column: 1;
+      font-size: 1.4rem;
+      text-align: justify;
+      padding-right: 2rem;
+    }
+    .skill__img {
+      grid-column: 2;
+      width: 100%;
+    }
+  }
+}
