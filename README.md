@@ -1,6 +1,6 @@
 ## About me page
 
-This is site that tells a little abot me.
+This is site that tells a little about me.
 
 I made it while learning JavaScript, so now newer version is in the making.
 
